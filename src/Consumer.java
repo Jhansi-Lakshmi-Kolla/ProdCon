@@ -12,7 +12,7 @@ public class Consumer extends Thread{
 		// TODO Auto-generated method stub
 		while(true) {
             int value = c.consume();
-            System.out.println("Consumer got " + value);
+            System.out.println("Consumer got " + value);//commenting to see the changes on git
 		}
 	}
 
